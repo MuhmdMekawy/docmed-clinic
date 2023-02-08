@@ -1,0 +1,87 @@
+@media(max-width:990px){
+    .navbar .content .right{
+        display: none;
+    }
+    .navbar .content .menu{
+        display: inline-block;
+    }
+    .services .content .cont h3{
+        font-size: 22px;
+    }
+    .care .content{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+    .care .content .right{
+        padding-left: initial;
+    }
+    .care .content .right h2{
+        font-size: 40px;
+    }
+    .care .content .left{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    .care .content .left img{
+        width: 100%;
+    }
+    .care .content .left .two{
+        transform: translate(0);
+        height: auto;
+    }
+    .comm .content h3::before{
+        left: 44%;
+    }
+    .navigat .content .bottom .cont{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .navigat .content .bottom .cont P{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:770px){
+    .header .content .cont h4{
+        font-size: 40px;
+    }
+    .header .arrow .right{
+        display: none;
+    }
+    .header .arrow .left{
+        display: none;
+    }
+    .depare .row{
+        justify-content: center;
+    }
+    .comm .content p{
+        font-size: 17px;
+    }
+    .navigat .content .top{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .navigat .content .top .cont{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact .content .cont{
+        flex-direction: column;
+        text-align: center;
+    }
+    .navigat .content .bottom .cont .left h4{
+        font-size: 20px;
+    }
+    .styles{
+        top: 108px;
+    }
+}
